@@ -15,7 +15,7 @@
 사용 기술
 Spring 3.0, Apache Tomcat 9.0, Mybatis
 Java, Ajax, JavaScript, Jquery, Git, MVC Pttern
-Oracle 11g DataBase
+Oracle 11g DataBase   
 
 
 **담당 구현 파트**
@@ -51,37 +51,23 @@ GitHub 레포지토리 전체 관리
 ![image](https://user-images.githubusercontent.com/86913502/129676268-2ab24e76-264e-41a8-8043-dff1418427e0.png)
 ![image](https://user-images.githubusercontent.com/86913502/129677403-8e231ed2-8e04-4b49-92bb-30fc625b0cf9.png)
 
-
 - 상품의 정보와 이미지를 입력 받아 컨트롤러에서 데이터를 객체로 받아 Mybatis 쿼리문을 이용하여 oracleDB에 저장.
 
 
 
 
+-재고 관리
+![image](https://user-images.githubusercontent.com/86913502/129678035-a2f9a2d5-5e49-4263-975e-96348fb094a2.png)
+![image](https://user-images.githubusercontent.com/86913502/129678674-26dee6e1-6d4c-4c43-b21b-5b5c4c4f3b5b.png)
+![image](https://user-images.githubusercontent.com/86913502/129679056-74a370b6-0188-4877-b404-e79709704e8c.png)
 
+상품 검색
+-	원하는 상품의 카테고리 및 검색어를 입력 후 검색어의 유무에 따라 Mybatis 동적 쿼리문을 이용하여 데이터를 검색.
+- 데이터를 받아 JSTL을 이용하여 화면에 상품 리스트 표시.  
+-	상품 등록일 기준 가장 최근 상품이 상단에 위치.
 
-
-
-
-메뉴설정, 상품전체 검색 기능
-
-Tiles를 이용하여 메인메뉴 전체를 설정.
-
-검색 시 키워드 또는 상품의 제목을 비교하여 데이터를 가져오고
-
-JsonView를 설정해 Json형태로 데이터를 가져와 Ajax통신으로
-
-검색한 목록들을 페이징 처리와 출력.
-
-슬라이드, 상품리스트
-
-bxSlider를 이용하여 이미지 슬라이더 구성.
-
-JsonView를 설정해 데이터를 Json형태로 가져와 Ajax 통신으로
-
-메인 상품 리스트 구성.
-
-
-
+옵션 추가
+-	해당 상품의 ‘옵션추가’ 버튼 클릭시 새로운 팝업창을 띄워 옵션 추가 가능.
 
 
 

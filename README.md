@@ -31,7 +31,8 @@
 ### ●매인 화면 ###
 
 ![Animation](https://user-images.githubusercontent.com/86913502/129730891-24a59135-97ee-4512-b4ce-675f1966dd8e.gif)
-![Animation2](https://user-images.githubusercontent.com/86913502/129731302-bb52596c-c6fb-4c48-a1da-2034b47c4ca0.gif)
+![a3](https://user-images.githubusercontent.com/86913502/129733008-6766c664-94fa-4aee-a70f-7505693defc3.gif)
+
 
 <br>
 <br>

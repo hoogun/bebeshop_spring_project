@@ -13,10 +13,9 @@
     참여 인원: Backend 6명
 
     사용 기술
-    
     Spring 5.0, Apache Tomcat 9.0, Mybatis
-    Java, Ajax, JavaScript, Jquery, Git, MVC Pttern
-    Oracle 11g DataBase  
+    Java, Ajax,  html, css, JavaScript, Jquery, 
+    Git, MVC Pttern, Oracle 11g DataBase, lombok  
 
 ## 담당 구현 파트 ##
 
@@ -37,11 +36,15 @@
 ![image](https://user-images.githubusercontent.com/86913502/129675914-3e9b467e-b590-45e4-9a64-c847c2f2c5e7.png)
 ![image](https://user-images.githubusercontent.com/86913502/129675750-538c41b5-d597-45d5-92aa-1e5db45512b8.png)
 
+![image](https://user-images.githubusercontent.com/86913502/129729472-bdef0676-4809-42fc-89eb-f31057368a32.png)
+![image](https://user-images.githubusercontent.com/86913502/129729434-b8a4cc59-dfa5-4865-86b1-1ddf243e191f.png)
+
 -	회원이 구매한 구매목록 처리, 가장 최근 구매상품이 최상단에 위치 Mybatis를 이용하여 구매날짜순으로 구매목록을 불러옴.
 -	현재 배송 현황 및 취소 요청, 취소현황 확인가능
 주문 상세
 -	해당제품 주문 상세 클릭 시 주문에 대한 정보 및 배송현황 팝업 출력
-- 세션으로 로그인한 회원 아이디값 확인 후 해당하는 회원의 구매목록을 ModelAndView방식으로 전송하여 데이터를 JSTL을 이용하여 화면에 표시    
+-   세션으로 로그인한 회원 아이디값 확인 후 해당하는 회원의 구매목록을 ModelAndView방식으로 전송하여 데이터를 JSTL을 이용하여 화면에 표시    
+-   주문상세 버튼을 클릭시 해당 주문번호에 대한 주문정보 팝업을 표시.
 
 <br>
 <br>

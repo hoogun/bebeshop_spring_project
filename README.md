@@ -28,6 +28,14 @@
     팀원들의 Git Conflict 해결
 
 ## Implementation ##
+### ●매인 화면 ###
+
+![Animation](https://user-images.githubusercontent.com/86913502/129730891-24a59135-97ee-4512-b4ce-675f1966dd8e.gif)
+![Animation2](https://user-images.githubusercontent.com/86913502/129731302-bb52596c-c6fb-4c48-a1da-2034b47c4ca0.gif)
+
+<br>
+<br>
+
 
 ### 사용자 마이페이지 ###
 

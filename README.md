@@ -96,10 +96,16 @@
 <br>
 <br>
 
-### ●스케쥴 & 유즈케이스 ###
+
+### ●ERD ###
+![erd](https://user-images.githubusercontent.com/86913502/129728675-23f7c67b-62e3-45fa-b81f-379ae247b5cb.JPG)
+
+<br>
+<br>
+
+### ●스케줄 ###
 
 ![image](https://user-images.githubusercontent.com/86913502/129685113-458f736b-74a6-48b2-98ab-d56f6dfe9905.png)
-![image](https://user-images.githubusercontent.com/86913502/129685169-a9e68531-caf5-4dd8-8083-20747282a138.png)
 
 
 

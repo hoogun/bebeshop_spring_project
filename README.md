@@ -24,15 +24,15 @@
     
     관리자, 유저 마이 페이지 구현
 
-    GitHub 레포지토리 전체 관리
+    소스트리를 이용하여 GitHub 레포지토리 전체 관리
 
     팀원들의 Git Conflict 해결
 
 ## Implementation ##
 
-#### 사용자 마이페이지 ####
+### 사용자 마이페이지 ###
 
-##### ●구매 내역 #####
+### ●구매 내역 ###
 ![image](https://user-images.githubusercontent.com/86913502/129675959-d089e98b-40ee-4ac6-9259-a99f91b28384.png)
 ![image](https://user-images.githubusercontent.com/86913502/129675914-3e9b467e-b590-45e4-9a64-c847c2f2c5e7.png)
 ![image](https://user-images.githubusercontent.com/86913502/129675750-538c41b5-d597-45d5-92aa-1e5db45512b8.png)
@@ -46,10 +46,10 @@
 <br>
 <br>
 
-#### 관리자 마이페이지 ####
+### 관리자 마이페이지 ###
 
-#### ●상품 추가 #####
-![image](https://user-images.githubusercontent.com/86913502/129676268-2ab24e76-264e-41a8-8043-dff1418427e0.png)
+### ●상품 추가 ###
+![image](https://user-images.githubusercontent.com/86913502/129726239-634d341d-9dc0-4ee1-b974-2a84897a14fe.png)
 ![image](https://user-images.githubusercontent.com/86913502/129677403-8e231ed2-8e04-4b49-92bb-30fc625b0cf9.png)
 
 - 상품의 정보와 이미지를 입력 받아 컨트롤러에서 데이터를 객체로 받아 Mybatis 쿼리문을 이용하여 oracleDB에 저장.    
@@ -57,7 +57,7 @@
 <br>
 <br>
 
-##### ●재고 관리 #####
+### ●재고 관리 ###
 ![image](https://user-images.githubusercontent.com/86913502/129678035-a2f9a2d5-5e49-4263-975e-96348fb094a2.png)
 ![image](https://user-images.githubusercontent.com/86913502/129678674-26dee6e1-6d4c-4c43-b21b-5b5c4c4f3b5b.png)
 ![image](https://user-images.githubusercontent.com/86913502/129679056-74a370b6-0188-4877-b404-e79709704e8c.png)
@@ -73,7 +73,7 @@
 <br>
 <br>
 
-##### ●주문 현황 #####
+### ●주문 현황 ###
 ![image](https://user-images.githubusercontent.com/86913502/129680836-ec50747f-c79e-49d6-887a-084a1ad340c3.png)
 ![image](https://user-images.githubusercontent.com/86913502/129681382-a7412f3d-9634-4330-ba75-e9d98ed1b9a7.png)
 
@@ -82,18 +82,21 @@
 -	현재 배송상태 확인가능, 원하는 배송상태 설정 하여 반영.
 -	회원의 취소요청 유무에 따라 요청이 있을 시 취소 처리 가능.
 
+<br>
+<br>
 
-##### ●결제 #####
+### ●결제 ###
 
-<<사진>>>
+![image](https://user-images.githubusercontent.com/86913502/129726591-c067e26a-17cd-420a-a7bc-82d01e55a800.png)
+![image](https://user-images.githubusercontent.com/86913502/129727573-29a22e54-6a72-42c7-935c-1893ca1fdd1e.png)
 
--	아임포트 api를 이용한 결제
--	상품정보와 배송지 정보를 n:1로 받아 각각상품마다 주문번호 배송지가 들어감
--	결제 완료시 카트에 있는 제품일 경우 카트에서 동일 상품은 삭제함
--	결제 완료시 상품의 주문수량만큼  판매량은 증가하고, 해당 상품의 같은 옵션에는 재고량이 빠짐 
+- 아임포트 api를 이용한 결제
+- 상품 결제시 iamport api를 이용하여 결제진행, 결제가 성공시 ajax통신을 이용하여 결재 정보를 서버에 전송하여 DB에 저장.
 
+<br>
+<br>
 
-##### ●스케쥴 & 유즈케이스 #####
+### ●스케쥴 & 유즈케이스 ###
 
 ![image](https://user-images.githubusercontent.com/86913502/129685113-458f736b-74a6-48b2-98ab-d56f6dfe9905.png)
 ![image](https://user-images.githubusercontent.com/86913502/129685169-a9e68531-caf5-4dd8-8083-20747282a138.png)

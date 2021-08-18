@@ -13,7 +13,7 @@
     참여 인원: Backend 6명
 
     사용 기술
-    Spring 5.0, Apache Tomcat 9.0, Mybatis
+    Spring 5.0, Apache Tomcat 8.5, Mybatis
     Java, Ajax,  html, css, JavaScript, Jquery, 
     Git, MVC Pttern, Oracle 11g DataBase, lombok  
 

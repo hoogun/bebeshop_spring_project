@@ -13,7 +13,7 @@
     참여 인원: Backend 6명
 
     사용 기술
-    Spring 5., Apache Tomcat 8.5, Mybatis
+    Spring 5.x, Apache Tomcat 8.5, Mybatis
     Java, Ajax,  html, css, JavaScript, Jquery, 
     Git, MVC Pttern, Oracle 11g DataBase, lombok  
 
@@ -106,7 +106,6 @@
 
 <br>
 <br>
-
 
 ### ●ERD ###
 ![erd](https://user-images.githubusercontent.com/86913502/129728675-23f7c67b-62e3-45fa-b81f-379ae247b5cb.JPG)

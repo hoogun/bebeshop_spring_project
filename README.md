@@ -24,8 +24,7 @@
     관리자, 유저 마이 페이지 구현
 
     소스트리를 이용하여 GitHub 레포지토리 전체 관리
-
-    팀원들의 Git Conflict 해결
+    
 
 ## Implementation ##
 ### ●매인 화면 ###
